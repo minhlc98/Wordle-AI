@@ -25,9 +25,5 @@ console.log(result); // Output the answer
 ```
 
 ### References
-
-- `solve` (src/solve.ts)
-- `checkWord` (src/wordle.api.ts)
-- `WordleFeedback` (src/interfaces/wordle-feedback.interface.ts)
-
-See the implementation in `src/solve.ts`.
+Wikipedia: https://en.wikipedia.org/wiki/Wordle
+VnExpress: https://vnexpress.net/wordle-game-do-chu-thu-hut-2-trieu-nguoi-choi-moi-ngay-4416489.html
