@@ -1,4 +1,7 @@
-### How it works
+### Wordle API Document
+- https://wordle.votee.dev:8000/redoc
+
+### How the `solve` function works
 1. **Input validation:**  
   The function takes a `length` parameter (the target word length). If the value is invalid, it throws an error.
 
