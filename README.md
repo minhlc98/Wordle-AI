@@ -25,5 +25,5 @@ console.log(result); // Output the answer
 ```
 
 ### References
-Wikipedia: https://en.wikipedia.org/wiki/Wordle
-VnExpress: https://vnexpress.net/wordle-game-do-chu-thu-hut-2-trieu-nguoi-choi-moi-ngay-4416489.html
+- Wikipedia: https://en.wikipedia.org/wiki/Wordle
+- VnExpress: https://vnexpress.net/wordle-game-do-chu-thu-hut-2-trieu-nguoi-choi-moi-ngay-4416489.html
