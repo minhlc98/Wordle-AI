@@ -1,4 +1,4 @@
-import { chunk } from "lodash";
+import { chunk, padStart } from "lodash";
 import { checkWord } from "./wordle.api";
 import { WordleFeedback } from "./interfaces/wordle-feedback.interface";
 
@@ -14,7 +14,7 @@ export const solve = async (length: number): Promise<string> => {
 
   const chunks = chunk(WORDS, length);
   const resultCheck: WordleFeedback[][] = await Promise.all(chunks.map(async (chunk) => {
-    const result = await checkWord(chunk.join(""));
+    const result = await checkWord(padStart(chunk.join(""), length, "A"));
     return result;
   }));
 
